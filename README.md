@@ -10,7 +10,7 @@
 3. Add-migration v1.1 veya EntityFramework6\Add-Migration initial komutu girilerek migration oluşturulur. 
 4. Update-database komutu ile MsSQL’de ‘SimraHomework3Db’ ve tablolar oluşturulur.
 
-![alt text](https://i.ibb.co/GFZ3N13/Connection.png)
+
 
 ## Proje Hedefleri:
 0.Projede eksik olarak birakilan DapperRepository class in implemantasyonunu tamamlandı.
