@@ -1,8 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/EtuTo9DT)
-Projede eksik olarak birakilan DapperRepository class in implemantasyonunu tamamlandı.
 
-Insert Update Delete GetAll,GetById methodlari ile calisacak halde methodlari implement edininiz. 
-Category modeli icin dapper servis hazirlandı . Bu servis Dynamic Dapper repository ile calisacak hale getirildi.
-Bu servis icin standart bir controller implement edildi.  (GetAll,GetById,Insert,Update,Delete)
-Projede kullanilan tum DI islemlerini autofac ile olacak sekilde degistirildi. 
-TransactionReportController dapper yerine EF ile calisacak sekilde guncellendi. 
+
+
+
+# SİMPRA_HOMEWORK4
+
+## Projeyi çalıştırmak için:
+1. SimpraHomewroks.Apı -> appsettings.json -> MsSQL tanımlamasındaki ‘Server’ bilgisini kendiMsSQL server adı ile değiştiriniz. 
+2. Package Manager Console -> Default Project -> SimpraHomework.Repository seçilir. 
+3. Add-migration v1.1 veya EntityFramework6\Add-Migration initial komutu girilerek migration oluşturulur. 
+4. Update-database komutu ile MsSQL’de ‘SimraHomework3Db’ ve tablolar oluşturulur.
+
+![alt text](https://i.ibb.co/GFZ3N13/Connection.png)
+
+## Proje Hedefleri:
+0.Projede eksik olarak birakilan DapperRepository class in implemantasyonunu tamamlandı.
+1. Projede eksik olarak birakilan DapperRepository class in implemantasyonunu tamamlandı.
+2. Category modeli icin dapper servis hazirlandı . Bu servis Dynamic Dapper repository ile calisacak hale getirildi. 
+3. Bu servis icin standart bir controller implement edildi.  (GetAll,GetById,Insert,Update,Delete)
+4. Projede kullanilan tum DI islemlerini autofac ile olacak sekilde degistirildi. 
+5. TransactionReportController dapper yerine EF ile calisacak sekilde guncellendi. 
