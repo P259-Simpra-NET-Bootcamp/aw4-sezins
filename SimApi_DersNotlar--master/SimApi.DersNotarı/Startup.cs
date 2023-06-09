@@ -50,8 +50,7 @@ namespace SimApi.DersNotarı
             services.AddJwtExtension();
             services.AddCustomSwaggerExtension();
 
-            //services.AddScoped<ITransactionService, TransactionService>();
-            //services.AddScoped<ITransactionReportService, TransactionReportService>();
+          
 
         }
 
